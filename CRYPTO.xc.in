@@ -1,0 +1,5 @@
+@@SCAU_DIR@@/fbs-zcall/libcrypto.so
+HASH: xc_char_t* Crypto_Digest_Hash(I:xc_char_t*,I:xc_char_t*)
+HMAC: xc_char_t* Crypto_Digest_HMAC(I:xc_char_t*,I:xc_char_t*,I:xc_char_t*)
+PRNG: xc_char_t* Crypto_Rand_PRNG(I:xc_long_t)
+CSPRNG: xc_char_t* Crypto_Rand_CSPRNG(I:xc_long_t)
